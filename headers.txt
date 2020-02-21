@@ -1,0 +1,27 @@
+Key			Value					Description
+Expires			Thu, 13 Feb 2020 21:07:40 GMT		Indicates when a response is stale.
+
+Date			Thu, 13 Feb 2020 21:07:40 GMT		Indicates when a message was sent.
+
+Cache-Control 		private, max-age=0, must-revalidate, no-transform Rules for caching requests and responses. 
+
+ETag			"iPPser6Mov75mJUb_EktR4oB1SI/HvsXv4RECR6a5tiUTli8yTIQgUs"	Identifies a specific resource version.
+
+Vary			Origin, X-Origin 				
+Determines how to match future request headers.
+
+Content-Type		application/json; charset=UTF-8	Indicates the media type of the resouce. 
+
+Content-Encoding	gzip			Indicates the encoding method applied.
+
+X-Content-Type-Options	nosniff			Used to opt out of MIME type sniffing.
+
+X-Frame-Options		SAMEORIGIN		Used to avoid clickjacking attacks.
+
+X-XSS-Protection	1; mode=block		Stops pages from loading when they detect XSS attacks.
+
+Server			GSE			Information about how the server handles requests.
+
+Alt-Svc			quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000	Custom header
+
+Transfer-Encoding	chunked			Specifies the form of encoding used to transfer the entity to the user. 
